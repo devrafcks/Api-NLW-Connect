@@ -1,0 +1,25 @@
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+    "name": "2a2",
+    "email": "2ia2ndicado@gmail.com",
+    "referer:":"1d7d4853-f5d4-461c-81a5-8d7f65ea7819"
+}
+
+####
+
+GET http://localhost:3333/invites/1d7d4853-f5d4-461c-81a5-8d7f65ea7819
+
+####
+
+GET http://localhost:3333/subscribers/1d7d4853-f5d4-461c-81a5-8d7f65ea7819/ranking/clicks
+
+### 
+GET http://localhost:3333/subscribers/1d7d4853-f5d4-461c-81a5-8d7f65ea7819/ranking/count
+
+### 
+GET http://localhost:3333/subscribers/1d7d4853-f5d4-461c-81a5-8d7f65ea7819/ranking/position
+
+### 
+GET http://localhost:3333/ranking
