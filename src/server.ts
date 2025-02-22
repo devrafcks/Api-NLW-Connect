@@ -24,8 +24,8 @@ app.register(fastifyCors);
 app.register(fastifySwagger, {
     openapi: {
         info: {
-            title: "NLW 7 - Connect",
-            version: "0.0.1",
+            title: "NLW  - Connect",
+            version: "1.0.0",
         },
     },
     transform: jsonSchemaTransform,
