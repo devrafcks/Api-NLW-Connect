@@ -61,7 +61,7 @@ docker-compose up -d
 
 Crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis de ambiente (exemplo):
 
-WEB_URL=http://localhost:3000
+WEB_URL=http://localhost:3333
 DB_HOST=localhost
 DB_PORT=5432
 DB_USER=your_postgres_user
@@ -77,7 +77,7 @@ npm run dev
 
 6. **Acessar a API**
 
-A API estará disponível em `http://localhost:3000`. Você pode acessar a documentação interativa do Swagger em `http://localhost:3000/documentation`.
+A API estará disponível em `http://localhost:3333`. Você pode acessar a documentação interativa do Swagger em `http://localhost:3333/docs`.
 
 ## Rotas da API
 
